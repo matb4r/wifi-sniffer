@@ -1,11 +1,10 @@
-# Analizator komunikacji sieci bezprzewodowych IEEE 802.11/Wi-Fi.
-Program zbiera ramki IEEE 802.11 i odpowiednio je interpretując, drukuje na wyjściu standardowym.
+# IEEE 802.11/Wi-Fi sniffer
 
-### Kompilacja:
+### Compilation:
 ```
 gcc ./wifisniffer.c -o ./wifisniffer -lpcap
 ```
-### Użycie:
+### Usage:
 
 ```
 sudo ./wifisniffer INTERFACE
